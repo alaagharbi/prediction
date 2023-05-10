@@ -21,4 +21,5 @@ from . import haja
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('prediction/', haja.getAllusers),
+    # path('emotion/', haja.analyze_emotions),
 ]
